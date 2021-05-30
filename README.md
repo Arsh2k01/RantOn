@@ -24,16 +24,16 @@ We have three supporting .py file :
 	- Join.py has functions which fits and puts the new apparel onto the customer to give a very close real-life apparel 	trying experience. 
 Given are the classes of function which are defined in the above mentioned files:
 
-grabcut()
+**grabcut():**
 Takes the required portion of the customer’s image, and gathers the cutout of the already worn up clothing.
 
-userPreprocess()
+**userPreprocess():**
 Breaks up the cutout gathered from the last step into various sections (at the joints) to get a better analysis and size of each & every part at minute stages as well.
 
-catPreprocess()
+**catPreprocess():**
 Takes up the new apparel’s flattened image, breaks it and resizes it with the cutout sections of the original clothing. 
 
-userFit()
+**userFit():**
 Takes up all the modified sections of the new apparel and places them at their appropriate positions on the image of the customer to get a near to real-life visual of the apparel on the customer
 
 
